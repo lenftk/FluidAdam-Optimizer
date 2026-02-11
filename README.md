@@ -27,7 +27,10 @@ Actual visualization of the Navier-Stokes equations implemented in this project 
 ![Fluid Simulation](assets/fluid_simulation.png)
 
 Based on the simplified Navier-Stokes equation:
-$$ \mathbf{v}_{t+1} = \mathbf{v}_t + \text{Acceleration} - \nu \cdot (\text{Viscosity}) $$
+
+$$
+\mathbf{v}_{t+1} = \mathbf{v}_t + \text{Acceleration} - \nu \cdot (\text{Viscosity})
+$$
 
 In **FluidAdam (V4)**, this is translated to:
 1.  **Fluid Gradient:** Calculates the *change* in gradient (acceleration).
