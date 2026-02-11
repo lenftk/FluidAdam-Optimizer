@@ -46,7 +46,7 @@ Tested on non-convex functions (Sphere, Rosenbrock, Rastrigin). **FluidAdam V4 (
 ![Benchmark Functions](assets/benchmark_functions.png)
 
 ### 2. Neural Network Training
-Comparison of loss reduction speed in a standard Neural Network regression task. FluidAdam reaches the target loss with fewer epochs.
+Comparison of convergence rates in standard Neural Network training. **FluidAdam** demonstrates **significantly faster convergence** and a superior ability to locate the **global minimum**, effectively overcoming the hurdles of complex loss landscapes.
 
 ![NN Training](assets/nn_training.png)
 
